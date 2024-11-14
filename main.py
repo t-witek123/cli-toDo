@@ -15,6 +15,16 @@ def goodbye(name: str, formal: bool = False):
     else:
         print(f"Bye {name}!")
 
+task_list = []
+task_list.append('dupa')
+print(task_list)
+@app.command()
+
+def add(task: str):
+    print(f"task: {task}")
+
+#def something()
 
 if __name__ == "__main__":
     app()
+
